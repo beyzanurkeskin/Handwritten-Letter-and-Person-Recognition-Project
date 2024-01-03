@@ -2,11 +2,7 @@
 
 ## Overview
 
-This project focuses on developing a deep learning model for recognizing handwritten letters. The primary goal is to create a system that accurately identifies and classifies letters from input images of handwritten text.
-
-## Introduction
-
-Handwritten letter recognition is a challenging task that involves the use of deep learning techniques to accurately identify individual letters in handwritten text. This project employs a convolutional neural network (CNN) architecture to achieve high accuracy in recognizing letters from diverse handwriting styles.
+The project designed to not only recognize letters in the Turkish alphabet but also to uniquely identify individuals based on their distinct handwritten letters. Our primary goal is to develop a robust system capable of recognizing letters of the Turkish alphabet and identifying individuals based on their handwritten letters. 
 
 ## Dependencies
 
@@ -17,8 +13,7 @@ Handwritten letter recognition is a challenging task that involves the use of de
 - Matplotlib
 
 ## Dataset
-We collected a dataset by asking individuals to write letters of the Turkish alphabet. Participants provided their written letters along with signatures to grant permission for data usage. The dataset includes images of handwritten letters and corresponding signature images.
-
+We collected a dataset by asking individuals to write both uppercase and lowercase letters of the Turkish alphabet. Participants provided their written letters along with signatures to grant permission for data usage in order to follow KVKK rules. The dataset includes images of handwritten letters.
 ### Data Collection Process
 Letter Writing: Participants were requested to write letters of the Turkish alphabet on paper.
 
@@ -30,12 +25,41 @@ Image Acquisition: We captured images of the handwritten letters and signatures 
 
 The dataset is organized into the following structure:
 
+* data
+   * beyza
+      * 1
+         * [images of handwritten letters by person 1]
+         ...
+         ...
+         ...
+      * 56
+         * [images of handwritten letters by person 56]
+   * ezgi
+      * 1
+         * [images of handwritten letters by person 1]
+         ...
+         ...
+         ...
+      * 56
+         * [images of handwritten letters by person 56]
+   * zeynep
+      * 1
+         * [images of handwritten letters by person 1]
+         ...
+         ...
+         ...
+     * 56
+         * [images of handwritten letters by person 56]
+
+
+In this structure, each individual's folder (beyza, ezgi, zeynep) contains subfolders numbered from 1 to 56. Within these subfolders, you'll find the images of 126 handwritten letters from each respective person. This reflects the fact that there are images from 56 people taken with 3 phones of beyza, ezgi, and zeynep.
+
 ## Usage
 1. Download the Dataset:
    
 3. Clone the repository:
    ```bash
-   https://github.com/beyzanurkeskin/YZV303E_TermProject_BEEB.git
+   git clone https://github.com/beyzanurkeskin/YZV303E_TermProject_BEEB.git
    ```
 4. Install dependencies:
    pip install -r requirements.txt
