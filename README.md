@@ -25,32 +25,7 @@ Image Acquisition: We captured images of the handwritten letters and signatures 
 
 The dataset is organized into the following structure:
 
-* data
-   * beyza
-      * 1
-         * [images of handwritten letters by person 1]
-         ... \
-         ... \
-         ...
-      * 56
-         * [images of handwritten letters by person 56]
-   * ezgi
-      * 1
-         * [images of handwritten letters by person 1]
-         ... \
-         ... \
-         ... 
-      * 56
-         * [images of handwritten letters by person 56]
-   * zeynep
-      * 1
-         * [images of handwritten letters by person 1]
-         ... \
-         ... \
-         ...
-     * 56
-         * [images of handwritten letters by person 56]
-
+![](dataset.png)
 
 
 In this structure, each individual's folder (beyza, ezgi, zeynep) contains subfolders numbered from 1 to 56. Within these subfolders, you'll find the images of 126 handwritten letters from each respective person. This reflects the fact that there are images from 56 people taken with 3 phones of beyza, ezgi, and zeynep.
