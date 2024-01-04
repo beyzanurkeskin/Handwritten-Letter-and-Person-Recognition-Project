@@ -1,4 +1,4 @@
-# Handwritten Letter Recognition Project
+# Handwritten Letter and Person Recognition Project
 
 ## Overview
 
