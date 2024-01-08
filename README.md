@@ -8,9 +8,17 @@ The project designed to not only recognize letters in the Turkish alphabet but a
 
 - Python 3.10.1
 - TensorFlow
+- scikit-learn (sklearn)
 - Keras
+- PIL (Pillow)
 - NumPy
 - Matplotlib
+- Seaborn
+- Visualkeras
+- OpenCV (cv2)
+- joblib
+- itertools
+- random
 
 ## Dataset
 We collected a dataset by asking individuals to write both uppercase and lowercase letters of the Turkish alphabet. Participants provided their written letters along with signatures to grant permission for data usage in order to follow KVKK rules. The dataset includes images of handwritten letters.
@@ -37,10 +45,14 @@ In this structure, each individual's folder (beyza, ezgi, zeynep) contains subfo
    ```bash
    git clone https://github.com/beyzanurkeskin/YZV303E_TermProject_BEEB.git
    ```
-4. Install dependencies:
-   pip install -r requirements.txt
    
-5. Run Jupyter Notebooks:
+4. Install dependencies:
+   You can install the required Python packages using the following command
+   ```
+   pip install tensorflow scikit-learn keras Pillow numpy matplotlib seaborn visualkeras opencv-python joblib
+   ```
+
+6. Run Jupyter Notebooks:
   * For a deeper analysis and exploration of the Handwritten Letter Recognition model, delve into the Jupyter notebooks located in the notebooks/ directory.
   * You can execute individual cells, allowing you to thoroughly analyze the handwritten letter recognition system. These notebooks provide an interactive environment for visualizing results, examining model architecture, and gaining valuable insights into the recognition process.
 
