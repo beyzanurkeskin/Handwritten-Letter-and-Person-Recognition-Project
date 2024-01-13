@@ -40,7 +40,7 @@ In this structure, each individual's folder (beyza, ezgi, zeynep) contains subfo
 
 ## Usage
 1. Download the Dataset:
- ```
+   ```
    https://drive.google.com/drive/folders/1x8znRCDLU_i7m5WmKqC_xjEyDXnNW3yR?usp=sharing
    ```
 3. Clone the repository:
